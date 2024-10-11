@@ -1,0 +1,3 @@
+315CB SLINCU MARIUS
+
+La task1 la MN am folosit functiile care au fost numite exact cum a fost cerut: functia parse_labyrinth (in ea am citit m si n iar apoi am constuit labirindul), get_adj_matrix (folosindune de labirind am construit matricea de adiacenta AdjFull initial plina cu 0, iar apoi am completat cu 1 acolo unde era nevoie(unde era arc de cerc)), get_link_matrix (folosindu-ne de matricea de adiacenta numaram cati de 1 avem pe fiecare linie, iar apoi facem impartirea), get_Jacobi_parameters (cu aceasta functie am obtinut elementele necesare pentru Jacobi: G si c), perform_iterative (in ea se calculeaza folosind parametrii aflati anterior) si decode_path (returneaza un vector de perechi, fiecare pereche reprezentând linia si coloana celulei cu codificarea dată).
