@@ -1,0 +1,3 @@
+
+
+Buna ziua! In aceasta tema gasim un fisier cu funtiile pe care le-am folosit pentru a realiza tema si unul main in care le-am apelat. Sunt prezente functiile MOVE_LEFT, MOVE_RIGHT, MOVE_LEFT_CHAR, MOVE_RIGHT_CHAR, INSERT_LEFT, INSERT_RIGHT, WRITE, SHOW, SHOW_CURRRENT, EXECUTE. Toate aceste functii au fost facute pe baza unor structuri (TLista, TLista2, TBanda, TCoada). In main citim din fisier numarul de operatii pe care trebuie sa le facem, iar apoi cu ajutorul unui for citim operatiile (le-am sortat in functie de ceea ce se citeste din fisier, astfel operatiile de SHOW, SHOW_CURRENT si EXECUTE se apeleaza, iar restul se adauga in coada de operatii). Functia EXECUTE scoate din coada prima comanda, iar cu ajutorul unui strcmp apelam acea comanda.
