@@ -1,0 +1,3 @@
+Task 1: M-am flosit de registrul bl pentru a retine in el, apoi am adaugat step-ul. Daca dupa adaugare depaseam litera 'Z', scadeam diferenta. In "mutare" am bagat in edi modificarea facuta, am cescut eax si repetam totul pana cand ajungem la ultimul caracter.
+
+Task 2: Am folosit cate un label pentru fiecare "mutare" (stanga sus, dreapta sus, stanga jos, dreapta jos). In acestea: am pus in edx pe eax, am crescut cu 1. Am pus in stiva eax-ul, l-am golit si am pus in el edx pentru a face inmultirea cu 8. La final am actualizat edx si am extras din stiva.
