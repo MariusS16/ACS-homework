@@ -1,0 +1,10 @@
+Pentru a crea un switch am folosit urmatorii pasi:
+
+Am implementat Procesul de comutare: am creat un cam_table care înregistrează mapările dintre adresele MAC și porturile prin care sunt accesibile. La recepția unui pachet, tabela se actualizează automat.
+Dacă adresa MAC de destinație este cunoscută (există în tabelă), pachetul este trimis către portul asociat, altfel, daca nu se afla in tabela, pachetul est trimis broadcast.
+
+Am implementat VLAN (Virtual Local Area Networks): am creat un vlan_table in care am "T" pentru trunk etc. 
+Iar in functia forward am mai multe cazuri in care verific daca ambele sunt trunk sau daca unul este trunk si altul nu, sau daca nu sunt trunk-uri.(+functii de adaugare si stergere de taguri)
+
+Am implementat STP (Spanning Tree Protocol): am creaat un stp_table in care am "L" pentru Listening, "B" pentru Blocking. Am completat functia send_bpdu in care am trimis BDPU.
+Apoi am implementat logica pentru STP prezentata in cerinta si am completat sa functioneze si peste forward. 
